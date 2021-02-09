@@ -53,19 +53,27 @@ nav{
         background-color: rgb(124, 123, 123);
     } 
 }
-header img{
-    width: 100%;
+header {
+    height: 100%;
     position: relative;
+    img{
+        width: 100%;
+        position: relative;
     }
-    .text-block{
-        position: absolute;
-        top: 40%;
-        right: 40%;
-        text-align: center;
-        h1{
-            margin-bottom: 0;
-        }
+}
+.text-block{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    h1{
+        margin-bottom: 0;
     }
+}
 h3{
     margin-bottom: 0;
 }
